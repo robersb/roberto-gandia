@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>About me.</title>
+      <link rel="stylesheet" type="text/css" href="../css/grid.css">
+      <style type="text/css">
+         *{
+         margin: 0;
+         padding: 0;
+         }
+         header{
+         width: 100%;
+         height: 78px;
+         position: fixed;
+         }
+         h1{
+         padding: 20px;
+         margin-left: auto;
+         margin-right: auto;
+         width: 16%;
+       }
+         nav{
+         width: 100%;
+         height: 30px;
+         }
+         .pie{
+         width: 60px;
+         height: 60px;
+         padding: 20px;
+         float: left;
+         }
+         .portada{
+         width: 100%;
+         position:absolute;
+         z-index:-3;
+         }
+         ul.listaMenu {
+         width: 100%;
+         list-style-type: none;
+         padding: 0;
+         overflow: hidden;
+         }
+         ul.listaMenu li {
+         margin-left: 14.6%;
+         float: left;
+         width: 150px;
+         font-family: monospace;
+         font-size: 25px;
+         }
+         ul.listaMenu li a {
+         display: block;
+         color: black;
+         text-align: center;
+         padding-top: 2px;
+         padding-bottom: 16px;
+         text-decoration: none;
+         }
+         ul.listaMenu li a:hover {
+         color: orange;
+         }
+         .yo{
+         width: 280px;
+         position: fixed;
+         left: 100px;
+         top: 270px;
+         z-index:-1;
+         }
+         .col-3{
+         margin: 10px 0 0 10px;
+         position: fixed;
+         font-family: monospace;
+         font-size: 15px;
+         position: fixed;
+         }
+         .caja{
+            margin: 270px 0 0 400px;
+         width: 300px;
+         height: 220px;
+         background: rgba(2000, 2000, 2000, 0.4);
+         border: 20px;
+         border-radius: 20px;
+         position: fixed;
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         <h1><a href="../index.html"> <img src="../images/rg.png"></a></h1>
+         <nav>
+            <ul class="listaMenu">
+               <li><a href="../pages/works.html">Works.</a></li>
+               <li><a href="../pages/aboutme.html">About me.</a></li>
+               <li><a href="../pages/contact.html">Contact.</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main class="row">
+         <img class="portada" src="../images/about.jpg">
+         <img class="yo" src="../images/me.jpg">
+         <div class="caja">
+         <p class="col-3">Hi! I am a young student of graphic design with desire and good taste and desire for good design. I like the design of posters, logo and advertising marketing, with good skills of Adobe Illustrator, Photoshop, Indesign and Lightroom. To see some of my works visit "Works."
+         Any doubt see "Contact." and I'll get in touch with you.
+         </p>
+         </div>
+         </main>
+   </body>
+</html>
